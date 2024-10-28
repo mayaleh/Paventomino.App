@@ -18,6 +18,8 @@ To solve my problem, I created this simple web app Paventomino, that has an simp
 
 ## How to use
 
+See the video on [YouTube](https://youtu.be/YI9bnERW6ag)
+
 TBD.
 
 1. Draw your room,
