@@ -1,0 +1,36 @@
+﻿@media print {
+
+    body {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        background-color: #fff;
+    }
+
+    *::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+    * {
+        -ms-overflow-style: none !important;
+        overflow: -moz-scrollbars-none;
+    }
+
+    .not-print {
+        display: none !important;
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    svg {
+        display: block;
+        margin: auto;
+        width: 100%; 
+        height: auto;
+        max-height: 100vh;
+    }
+
+}

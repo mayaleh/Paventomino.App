@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paventomino - 2D Web-based Tile Planner</title>
+    <base href="/" />
+    <link href="_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="Paventomino.UI.Web.styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
+
+    <meta name="title" content="Paventomino - 2D Online Tile Planner for Room Layouts">
+    <meta name="description" content="Paventomino is a free, easy-to-use 2D tile planner that lets you visualize tile layouts, create custom floor designs, and print detailed tile joint plans. Perfect for home renovations or design projects.">
+    <meta name="keywords" content="Paventomino, tile planner, tile layout, tile joint plan, 2D tile planner, room tile design, floor planner, tile visualization, tiling tool, tile patterns, tile design, custom floor layout, tile planning tool">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Salim Mayaleh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/a479f46d61758.js" data-cmp-host="d.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="16"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCBC1YGJ0V"></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is Paventomino?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paventomino is a free, easy-to-use online 2D tile planner that lets you visualize tile layouts, create custom floor designs, and print tile joint plans."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I use Paventomino for my room?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To use Paventomino, simply upload a tile image, set up your room dimensions, and arrange your layout. You can see how it looks and download a printable tile joint plan."
+                    }
+                }
+            ]
+        }
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CCBC1YGJ0V');
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>
